@@ -1,0 +1,28 @@
+[
+  {
+    "id": "INV-1775014945929",
+    "createdAt": "2026-04-01T03:42:25.929Z",
+    "investorName": "Camilo",
+    "investorId": "camilo",
+    "amount": 3000000,
+    "currency": "COP",
+    "term": 6,
+    "startDate": "2026-03-28",
+    "maturityDate": "2026-09-28",
+    "paymentMethod": "maturity",
+    "monthlyRate": 0.01,
+    "notes": "",
+    "status": "active",
+    "cashflows": [
+      {
+        "date": "2026-09-28",
+        "type": "principal+interest",
+        "amount": 3180000,
+        "description": "Principal + total accumulated interest at maturity",
+        "interestComponent": 180000,
+        "principalComponent": 3000000,
+        "balance": 0
+      }
+    ]
+  }
+]
