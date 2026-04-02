@@ -24,5 +24,31 @@
         "balance": 0
       }
     ]
+  },
+  {
+    "id": "INV-1775095408586",
+    "createdAt": "2026-04-02T02:03:28.586Z",
+    "investorName": "El Burro",
+    "investorId": "burro",
+    "amount": 47200000,
+    "currency": "COP",
+    "term": 12,
+    "startDate": "2026-01-01",
+    "maturityDate": "2027-01-01",
+    "paymentMethod": "maturity",
+    "monthlyRate": 0.01,
+    "notes": "",
+    "status": "active",
+    "cashflows": [
+      {
+        "date": "2027-01-01",
+        "type": "principal+interest",
+        "amount": 52864000,
+        "description": "Maturity payment",
+        "interestComponent": 5664000,
+        "principalComponent": 47200000,
+        "balance": 0
+      }
+    ]
   }
 ]
