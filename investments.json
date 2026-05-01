@@ -76,5 +76,45 @@
         "balance": 0
       }
     ]
+  },
+  {
+    "id": "INV-1777610241218",
+    "createdAt": "2026-05-01T04:37:21.218Z",
+    "investorName": "prueba",
+    "investorId": "4398",
+    "amount": 1000000,
+    "currency": "COP",
+    "term": 3,
+    "startDate": "2026-05-01",
+    "maturityDate": "2026-07-31",
+    "paymentMethod": "monthly",
+    "monthlyRate": 0.01,
+    "notes": "f",
+    "status": "active",
+    "cashflows": [
+      {
+        "date": "2026-05-31",
+        "type": "interest",
+        "amount": 10000,
+        "description": "Monthly interest",
+        "balance": 1000000
+      },
+      {
+        "date": "2026-07-01",
+        "type": "interest",
+        "amount": 10000,
+        "description": "Monthly interest",
+        "balance": 1000000
+      },
+      {
+        "date": "2026-07-31",
+        "type": "principal+interest",
+        "amount": 1010000,
+        "description": "Final payment",
+        "interestComponent": 10000,
+        "principalComponent": 1000000,
+        "balance": 0
+      }
+    ]
   }
 ]
