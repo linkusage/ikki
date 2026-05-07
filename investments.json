@@ -76,5 +76,31 @@
         "balance": 0
       }
     ]
+  },
+  {
+    "id": "INV-1778186809715",
+    "createdAt": "2026-05-07T20:46:49.715Z",
+    "investorName": "Laura Arango Mejia",
+    "investorId": "1037658131",
+    "amount": 1500000,
+    "currency": "COP",
+    "term": 12,
+    "startDate": "2026-05-07",
+    "maturityDate": "2027-05-07",
+    "paymentMethod": "maturity",
+    "monthlyRate": 0.01,
+    "notes": "",
+    "status": "active",
+    "cashflows": [
+      {
+        "date": "2027-05-07",
+        "type": "principal+interest",
+        "amount": 1680000,
+        "description": "Maturity payment",
+        "interestComponent": 180000,
+        "principalComponent": 1500000,
+        "balance": 0
+      }
+    ]
   }
 ]
