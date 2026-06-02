@@ -102,5 +102,31 @@
         "balance": 0
       }
     ]
+  },
+  {
+    "id": "INV-1780432801797",
+    "createdAt": "2026-06-02T20:40:01.797Z",
+    "investorName": "Grupo Giraldo",
+    "investorId": "",
+    "amount": 20000000,
+    "currency": "COP",
+    "term": 12,
+    "startDate": "2026-06-02",
+    "maturityDate": "2027-06-02",
+    "paymentMethod": "maturity",
+    "monthlyRate": 0.01,
+    "notes": "",
+    "status": "active",
+    "cashflows": [
+      {
+        "date": "2027-06-02",
+        "type": "principal+interest",
+        "amount": 22400000,
+        "description": "Maturity payment",
+        "interestComponent": 2400000,
+        "principalComponent": 20000000,
+        "balance": 0
+      }
+    ]
   }
 ]
