@@ -128,5 +128,31 @@
         "balance": 0
       }
     ]
+  },
+  {
+    "id": "INV-1781034817446",
+    "createdAt": "2026-06-09T19:53:37.446Z",
+    "investorName": "Hernan Dario Giraldo Gomez",
+    "investorId": "70113508",
+    "amount": 7000000,
+    "currency": "COP",
+    "term": 12,
+    "startDate": "2026-06-09",
+    "maturityDate": "2027-06-09",
+    "paymentMethod": "maturity",
+    "monthlyRate": 0.01,
+    "notes": "",
+    "status": "active",
+    "cashflows": [
+      {
+        "date": "2027-06-09",
+        "type": "principal+interest",
+        "amount": 7840000,
+        "description": "Maturity payment",
+        "interestComponent": 840000,
+        "principalComponent": 7000000,
+        "balance": 0
+      }
+    ]
   }
 ]
