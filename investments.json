@@ -158,7 +158,7 @@
   {
     "id": "INV-1781043482560",
     "createdAt": "2026-06-09T22:18:02.560Z",
-    "investorName": "Felipe Giraldo PeÃ±a",
+    "investorName": "Felipe Giraldo PeÃÂ±a",
     "investorId": "1234992668",
     "amount": 1000000,
     "currency": "COP",
@@ -184,7 +184,7 @@
   {
     "id": "INV-1781043512126",
     "createdAt": "2026-06-09T22:18:32.126Z",
-    "investorName": "Juan Pablo Giraldo Marín",
+    "investorName": "Juan Pablo Giraldo MarÃ­n",
     "investorId": "1 112786143",
     "amount": 10000000,
     "currency": "COP",
@@ -202,6 +202,32 @@
         "amount": 10600000,
         "description": "Maturity payment",
         "interestComponent": 600000,
+        "principalComponent": 10000000,
+        "balance": 0
+      }
+    ]
+  },
+  {
+    "id": "INV-1781112717791",
+    "createdAt": "2026-06-10T17:31:57.791Z",
+    "investorName": "Daniel Acosta M",
+    "investorId": "1036624545",
+    "amount": 10000000,
+    "currency": "COP",
+    "term": 12,
+    "startDate": "2026-06-10",
+    "maturityDate": "2027-06-10",
+    "paymentMethod": "maturity",
+    "monthlyRate": 0.01,
+    "notes": "",
+    "status": "active",
+    "cashflows": [
+      {
+        "date": "2027-06-10",
+        "type": "principal+interest",
+        "amount": 11200000,
+        "description": "Maturity payment",
+        "interestComponent": 1200000,
         "principalComponent": 10000000,
         "balance": 0
       }
