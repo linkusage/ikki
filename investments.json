@@ -158,7 +158,7 @@
   {
     "id": "INV-1781043482560",
     "createdAt": "2026-06-09T22:18:02.560Z",
-    "investorName": "Felipe Giraldo PeÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ±a",
+    "investorName": "Felipe Giraldo PeÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ±a",
     "investorId": "1234992668",
     "amount": 1000000,
     "currency": "COP",
@@ -184,7 +184,7 @@
   {
     "id": "INV-1781043512126",
     "createdAt": "2026-06-09T22:18:32.126Z",
-    "investorName": "Juan Pablo Giraldo MarÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ­n",
+    "investorName": "Juan Pablo Giraldo MarÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ­n",
     "investorId": "1 112786143",
     "amount": 10000000,
     "currency": "COP",
@@ -307,6 +307,32 @@
         "description": "Maturity payment",
         "interestComponent": 720000,
         "principalComponent": 6000000,
+        "balance": 0
+      }
+    ]
+  },
+  {
+    "id": "INV-1784784186051",
+    "createdAt": "2026-07-23T05:23:06.051Z",
+    "investorName": "Sebastian Giraldo",
+    "investorId": "",
+    "amount": 10000000,
+    "currency": "COP",
+    "term": 4,
+    "startDate": "2026-07-21",
+    "maturityDate": "2026-11-21",
+    "paymentMethod": "maturity",
+    "monthlyRate": 0.016,
+    "notes": "",
+    "status": "active",
+    "cashflows": [
+      {
+        "date": "2026-11-21",
+        "type": "principal+interest",
+        "amount": 10640000,
+        "description": "Maturity payment",
+        "interestComponent": 640000,
+        "principalComponent": 10000000,
         "balance": 0
       }
     ]
