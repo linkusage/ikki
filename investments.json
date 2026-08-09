@@ -336,5 +336,31 @@
         "balance": 0
       }
     ]
+  },
+  {
+    "id": "INV-1786240239688",
+    "createdAt": "2026-08-09T01:50:39.688Z",
+    "investorName": "Camilo Giraldo",
+    "investorId": "",
+    "amount": 5500000,
+    "currency": "COP",
+    "term": 6,
+    "startDate": "2026-08-09",
+    "maturityDate": "2027-02-09",
+    "paymentMethod": "maturity",
+    "monthlyRate": 0.016,
+    "notes": "",
+    "status": "active",
+    "cashflows": [
+      {
+        "date": "2027-02-09",
+        "type": "principal+interest",
+        "amount": 6028000,
+        "description": "Maturity payment",
+        "interestComponent": 528000,
+        "principalComponent": 5500000,
+        "balance": 0
+      }
+    ]
   }
 ]
