@@ -428,5 +428,31 @@
         "balance": 0
       }
     ]
+  },
+  {
+    "id": "INV-1790367934439",
+    "createdAt": "2026-09-25T20:25:34.439Z",
+    "investorName": "Felipe Giraldo Peña",
+    "investorId": "1234992668",
+    "amount": 35000000,
+    "currency": "COP",
+    "term": 3,
+    "startDate": "2026-09-25",
+    "maturityDate": "2026-12-25",
+    "paymentMethod": "maturity",
+    "monthlyRate": 0.015,
+    "notes": "",
+    "status": "active",
+    "cashflows": [
+      {
+        "date": "2026-12-25",
+        "type": "principal+interest",
+        "amount": 36575000,
+        "description": "Maturity payment",
+        "interestComponent": 1575000,
+        "principalComponent": 35000000,
+        "balance": 0
+      }
+    ]
   }
 ]
