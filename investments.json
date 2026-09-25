@@ -260,32 +260,6 @@
     ]
   },
   {
-    "id": "INV-1783352222180",
-    "createdAt": "2026-07-06T15:37:02.180Z",
-    "investorName": "Felipe Giraldo",
-    "investorId": "1234992668",
-    "amount": 3000000,
-    "currency": "COP",
-    "term": 6,
-    "startDate": "2026-07-06",
-    "maturityDate": "2027-01-06",
-    "paymentMethod": "maturity",
-    "monthlyRate": 0.01,
-    "notes": "",
-    "status": "active",
-    "cashflows": [
-      {
-        "date": "2027-01-06",
-        "type": "principal+interest",
-        "amount": 3180000,
-        "description": "Maturity payment",
-        "interestComponent": 180000,
-        "principalComponent": 3000000,
-        "balance": 0
-      }
-    ]
-  },
-  {
     "id": "INV-1784089542481",
     "createdAt": "2026-07-15T04:25:42.481Z",
     "investorName": "Melba Ener Pena",
