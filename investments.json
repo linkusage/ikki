@@ -369,7 +369,9 @@
         "description": "Maturity payment",
         "interestComponent": 267456,
         "principalComponent": 3184000,
-        "balance": 0
+        "balance": 0,
+        "paid": true,
+        "paidDate": "2026-10-03"
       }
     ],
     "renewedFrom": [
