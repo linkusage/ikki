@@ -12,7 +12,7 @@
     "paymentMethod": "maturity",
     "monthlyRate": 0.01,
     "notes": "",
-    "status": "active",
+    "status": "renewed",
     "cashflows": [
       {
         "date": "2026-09-28",
@@ -21,9 +21,20 @@
         "description": "Principal + total accumulated interest at maturity",
         "interestComponent": 180000,
         "principalComponent": 3000000,
-        "balance": 0
+        "balance": 0,
+        "paid": true,
+        "paidDate": "2026-10-03"
       }
-    ]
+    ],
+    "settlement": {
+      "type": "renewed",
+      "date": "2026-10-03",
+      "principal": 3000000,
+      "interest": 184000,
+      "renewedInto": "INV-1790989768326",
+      "interestCapitalized": 184000,
+      "interestPaidOut": 0
+    }
   },
   {
     "id": "INV-1775095408586",
@@ -336,5 +347,34 @@
         "balance": 0
       }
     ]
+  },
+  {
+    "id": "INV-1790989768326",
+    "createdAt": "2026-10-03T01:09:28.326Z",
+    "investorName": "Camilo",
+    "investorId": "1088002949",
+    "amount": 3184000,
+    "currency": "COP",
+    "term": 6,
+    "startDate": "2026-10-03",
+    "maturityDate": "2027-04-03",
+    "paymentMethod": "maturity",
+    "monthlyRate": 0.013999999999999999,
+    "status": "active",
+    "cashflows": [
+      {
+        "date": "2027-04-03",
+        "type": "principal+interest",
+        "amount": 3451456,
+        "description": "Maturity payment",
+        "interestComponent": 267456,
+        "principalComponent": 3184000,
+        "balance": 0
+      }
+    ],
+    "renewedFrom": [
+      "INV-1775014945929"
+    ],
+    "notes": "Renewal of INV-1775014945929 · principal 3.000.000 · accrued 184.000 capitalized"
   }
 ]
