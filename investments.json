@@ -376,5 +376,31 @@
       "INV-1775014945929"
     ],
     "notes": "Renewal of INV-1775014945929 · principal 3.000.000 · accrued 184.000 capitalized"
+  },
+  {
+    "id": "INV-1791233736636",
+    "createdAt": "2026-10-05T20:55:36.636Z",
+    "investorName": "Camilo Giraldo",
+    "investorId": "1088002949",
+    "amount": 5000000,
+    "currency": "COP",
+    "term": 2,
+    "startDate": "2026-10-05",
+    "maturityDate": "2026-12-05",
+    "paymentMethod": "maturity",
+    "monthlyRate": 0.015,
+    "notes": "",
+    "status": "active",
+    "cashflows": [
+      {
+        "date": "2026-12-05",
+        "type": "principal+interest",
+        "amount": 5150000,
+        "description": "Maturity payment",
+        "interestComponent": 150000,
+        "principalComponent": 5000000,
+        "balance": 0
+      }
+    ]
   }
 ]
