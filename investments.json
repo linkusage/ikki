@@ -268,7 +268,7 @@
     "paymentMethod": "maturity",
     "monthlyRate": 0.016,
     "notes": "",
-    "status": "active",
+    "status": "paid",
     "cashflows": [
       {
         "date": "2026-11-21",
@@ -277,9 +277,18 @@
         "description": "Maturity payment",
         "interestComponent": 640000,
         "principalComponent": 10000000,
-        "balance": 0
+        "balance": 0,
+        "paid": true,
+        "paidDate": "2026-11-05"
       }
-    ]
+    ],
+    "settlement": {
+      "type": "paid",
+      "date": "2026-11-05",
+      "principal": 10000000,
+      "interest": 640000,
+      "note": "pagado y se hace otro CDT a nombre de Isabella"
+    }
   },
   {
     "id": "INV-1786240239688",
