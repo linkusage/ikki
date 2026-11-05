@@ -451,5 +451,31 @@
       "INV-1775784224767"
     ],
     "notes": "Renewal of INV-1775784224767 · principal 2.000.000 · accrued 122.000 capitalized"
+  },
+  {
+    "id": "INV-1793845944046",
+    "createdAt": "2026-11-05T02:32:24.046Z",
+    "investorName": "Isabella Rodriguez",
+    "investorId": "1192758790",
+    "amount": 10640000,
+    "currency": "COP",
+    "term": 6,
+    "startDate": "2026-11-02",
+    "maturityDate": "2027-05-02",
+    "paymentMethod": "maturity",
+    "monthlyRate": 0.013999999999999999,
+    "notes": "",
+    "status": "active",
+    "cashflows": [
+      {
+        "date": "2027-05-02",
+        "type": "principal+interest",
+        "amount": 11533760,
+        "description": "Maturity payment",
+        "interestComponent": 893760,
+        "principalComponent": 10640000,
+        "balance": 0
+      }
+    ]
   }
 ]
