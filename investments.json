@@ -41,7 +41,7 @@
     "createdAt": "2026-04-02T02:03:28.586Z",
     "investorName": "El Burro",
     "investorId": "1017168178",
-    "amount": 47200000,
+    "amount": 24000001,
     "currency": "COP",
     "term": 12,
     "startDate": "2026-01-01",
@@ -52,15 +52,29 @@
     "status": "active",
     "cashflows": [
       {
+        "date": "2026-11-14",
+        "type": "principal+interest",
+        "amount": 28432976,
+        "description": "Abono parcial",
+        "interestComponent": 5232977,
+        "principalComponent": 23199999,
+        "partial": true,
+        "paid": true,
+        "paidDate": "2026-11-14",
+        "recordedAt": "2026-11-25T03:05:48.228Z",
+        "balance": 24000001
+      },
+      {
         "date": "2027-01-01",
         "type": "principal+interest",
-        "amount": 53274417.88,
+        "amount": 24385151.3,
         "description": "Maturity payment",
-        "interestComponent": 6074417.88,
-        "principalComponent": 47200000,
+        "interestComponent": 385150.3,
+        "principalComponent": 24000001,
         "balance": 0
       }
-    ]
+    ],
+    "originalAmount": 47200000
   },
   {
     "id": "INV-1775784224767",
