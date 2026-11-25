@@ -67,14 +67,23 @@
       {
         "date": "2027-01-01",
         "type": "principal+interest",
-        "amount": 24385151.3,
+        "amount": 24000001,
         "description": "Maturity payment",
-        "interestComponent": 385150.3,
+        "interestComponent": 0,
         "principalComponent": 24000001,
         "balance": 0
       }
     ],
-    "originalAmount": 47200000
+    "originalAmount": 47200000,
+    "condonations": [
+      {
+        "date": "2026-11-24",
+        "amount": 79735,
+        "full": true,
+        "recordedAt": "2026-11-25T03:17:25.239Z",
+        "note": "Condonación total de intereses"
+      }
+    ]
   },
   {
     "id": "INV-1775784224767",
