@@ -41,7 +41,7 @@
     "createdAt": "2026-04-02T02:03:28.586Z",
     "investorName": "El Burro",
     "investorId": "1017168178",
-    "amount": 24000001,
+    "amount": 20000001,
     "currency": "COP",
     "term": 12,
     "startDate": "2026-01-01",
@@ -65,12 +65,26 @@
         "balance": 24000001
       },
       {
+        "date": "2026-11-25",
+        "type": "principal",
+        "amount": 4000000,
+        "description": "Abono parcial",
+        "interestComponent": 0,
+        "principalComponent": 4000000,
+        "partial": true,
+        "paid": true,
+        "paidDate": "2026-11-25",
+        "recordedAt": "2026-11-25T03:33:45.270Z",
+        "note": "Condonados, cuenta Julieta y el burro y quedó en 20M outstanding, quedaban 24 entonces se pagan 4M",
+        "balance": 20000001
+      },
+      {
         "date": "2027-01-01",
         "type": "principal+interest",
-        "amount": 24000001,
+        "amount": 20000001,
         "description": "Maturity payment",
         "interestComponent": 0,
-        "principalComponent": 24000001,
+        "principalComponent": 20000001,
         "balance": 0
       }
     ],
