@@ -138,18 +138,27 @@
     "paymentMethod": "maturity",
     "monthlyRate": 0.01,
     "notes": "",
-    "status": "active",
+    "status": "paid",
     "cashflows": [
       {
-        "date": "2027-06-02",
+        "date": "2026-11-13",
         "type": "principal+interest",
-        "amount": 22573905.88,
-        "description": "Maturity payment",
-        "interestComponent": 2573905.88,
+        "amount": 21118035,
+        "description": "Early settlement",
+        "interestComponent": 1118035,
         "principalComponent": 20000000,
-        "balance": 0
+        "balance": 0,
+        "paid": true,
+        "paidDate": "2026-11-13"
       }
-    ]
+    ],
+    "settlement": {
+      "type": "paid",
+      "date": "2026-11-13",
+      "principal": 20000000,
+      "interest": 1118035,
+      "note": "Liquidación anticipada 13-nov-2026: capital 20.000.000 + intereses 1.118.035 = 21.118.035"
+    }
   },
   {
     "id": "INV-1781034817446",
